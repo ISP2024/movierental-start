@@ -8,10 +8,10 @@ from customer import Customer
 def make_movies():
     """Some sample movies."""
     movies = [
-        Movie("Oppenheimer", Movie.NEW_RELEASE),
-        Movie("CitizenFour", Movie.REGULAR),
+        Movie("Air", Movie.NEW_RELEASE),
+        Movie("Oppenheimer", Movie.REGULAR),
         Movie("Frozen", Movie.CHILDRENS),
-        Movie("The Covenant", Movie.NEW_RELEASE),
+        Movie("Bitconned", Movie.NEW_RELEASE),
         Movie("Particle Fever", Movie.REGULAR)
     ]
     return movies
